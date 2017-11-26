@@ -12,8 +12,6 @@ html {
 
 .link-card {
   display: inline-block;
-  margin: 0 0 1rem;
-  padding: 0 1rem;
   background-color: #dcd4cd;
   border: 3px solid #9a816d;
   border-radius: 3px;
@@ -26,6 +24,14 @@ html {
   font-family: Dosis, sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.link-card ul {
+  margin: 0 0 1rem;
+  padding: 0 1rem;
+  text-decoration: none;
+  color: #512200;
 }
 
 .link-card li {
@@ -71,7 +77,7 @@ div {
   font-style: italic;
 }
 
-hr {
+.link-card hr {
   display: block;
   border: 0;
   border-top: 1px solid #785439;
