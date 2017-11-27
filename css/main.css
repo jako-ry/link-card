@@ -63,6 +63,8 @@ div {
 
 .link-card dl {
   display: grid;
+  padding: 1rem;
+  margin: 0 0 1rem;
   font-size: .875rem;
 }
 
@@ -75,12 +77,4 @@ div {
 .link-card dd {
   grid-column-start: 2;
   font-style: italic;
-}
-
-.link-card hr {
-  display: block;
-  border: 0;
-  border-top: 1px solid #785439;
-  margin: 1em;
-  padding: 0;
 }
